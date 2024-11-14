@@ -1,0 +1,100 @@
+
+.container {
+    display: flex;
+    margin-left: 63px;
+    margin-right: 63px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    color: #333;
+    background-color: #fff;
+}
+
+.article-header h1 {
+    color: #0874AE;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.article-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.tableau-competences {
+    display: flex;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.tableau-competences .row {
+    margin: 0;
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tableau-competences .row h4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #1A5276;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.tableau-competences .row h4 i {
+    color: #01A9DB;
+    font-size: 54px;
+    margin-bottom: 35px;
+    transition: color 0.3s ease;
+}
+
+.tableau-competences .row:nth-child(2) h4 i {
+    color: #8A0808;
+}
+
+.tableau-competences .row:nth-child(3) h4 i {
+    color: #4B088A;
+}
+
+.tableau-competences .row:nth-child(4) h4 i {
+    color: #0B614B;
+}
+
+.tableau-competences .row div {
+    width: 132px;
+    height: 168px;
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    min-height: 200px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effects */
+.tableau-competences .row:hover h4 {
+    color:#FF8000;
+}
+
+.tableau-competences .row:hover h4 i {
+    color:#FF8000;
+}

@@ -1,0 +1,43 @@
+#GLOBAL STYLING
+global-styling:
+  version: 1.x
+  js:
+    js/actif-page.js: {}
+  css:
+    theme:
+      css/regions.css: {}
+      css/navbar.css: {}
+      css/featured.css: {}
+      css/footer.css: {}
+      css/entreprise.css: {}
+      css/breadcrumbs.css: {}
+
+#NORMALIZE
+normalize:
+  version: 1.x
+  css:
+    theme:
+      css/normalize.css: {}
+    
+#NAV BAR HIDDING
+custom-navbar:
+  version: VERSION
+  js: 
+    js/custom.js: {}
+  dependencies:
+    - core/jquery
+
+# #ootstrap
+# bootstrap:
+#   version: 1.x
+#   css:
+#     theme:
+#       includes/bootstrap/css/bootstrap.min.css: {}
+#   js:
+#     includes/bootstrap/js/bootstrap.min.js: {}
+#   dependencies:
+#     - core/jquery
+#     - core/drupal.ajax
+#     - core/drupal
+#     - core/drupalSettings
+#     - core/jquery.once

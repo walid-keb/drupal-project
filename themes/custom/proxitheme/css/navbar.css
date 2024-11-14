@@ -1,0 +1,113 @@
+.header .region-branding {
+    flex: 0 1 20%;
+    right: 15px;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 50%;
+    padding-right: 0;   
+    padding-bottom: 20px;
+}
+
+.header .region-navigation {
+    flex: 0 1 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+
+.header .region-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.header .region-navigation ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.header .region-navigation ul li a {
+    color: grey; 
+    text-decoration: none;
+    padding: 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.header .region-navigation ul li a:hover {
+    color: white; 
+}
+
+.header .region-navigation ul li ul {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 35px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.header .region-navigation ul li:hover > ul {
+    display: block;
+    border: 0px none;
+    text-align: -webkit-match-parent ;
+}
+
+.header .region-navigation ul li ul li {
+    display: block;
+}
+
+.header .region-navigation ul li.devis-gratuit a {
+    color: grey; 
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid ; 
+    border-color: grey;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: border-color 0.3s, color 0.3s; 
+}
+
+.header .region-navigation ul li.devis-gratuit a:hover {
+    color: white; 
+    border-color: white; 
+}
+.header .region-navigation ul li.active a,
+.header .region-navigation ul li a.active {
+    color: white; 
+}
+/*sous menu */
+.header .region-navigation ul li ul li a {
+    display: block;
+    padding: 7px 20px;
+    padding-left: 20px;
+    color: rgba(165, 157, 157, 0.418); 
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s;
+    font-size: 13px;
+}
+
+.header .region-navigation ul li ul li a:hover {
+    color: white;
+}
+
+.header .region-navigation ul li ul li:hover {
+    border: none;
+    background-color: rgba(145, 136, 136, 0.281); /
+}
+
+.header .region-navigation ul li:hover a,
+.header .region-navigation ul li:hover > ul li:hover a {
+    color: white; 
+}
+
+.header.hide {
+    transform: translateY(-100%);
+}

@@ -1,0 +1,30 @@
+name: proxitheme private version
+type: theme
+description: 'Designed & Developed by WALID'
+package: core
+core: 10.x
+core_version_requirement: ^8 || ^9 || ^10
+screenshot: screenshot.png
+libraries:
+  - proxitheme/global-styling
+  - proxitheme/normalize
+  - proxitheme/custom-navbar
+
+base theme: false
+
+
+regions:
+  branding: Branding
+  navigation: Main navigation
+  
+  featured: Featured
+  
+  content: Content
+  right_sidebar: Right sidebar
+  
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer Third
+  
+  footer_bottom: Footer Bottom
+  footer_menu: 'Footer Menu'

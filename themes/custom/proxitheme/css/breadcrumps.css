@@ -1,0 +1,20 @@
+.breadcrumb {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .breadcrumb .breadcrumb-item {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .breadcrumb .breadcrumb-link {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .breadcrumb .breadcrumb-item.is-active {
+    font-weight: bold;
+  }
+  

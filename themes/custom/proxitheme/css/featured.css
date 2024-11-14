@@ -1,0 +1,71 @@
+.apropos{
+    background: #181015 url(../images/aboutN.jpg) no-repeat ;
+    background-size: cover; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    font-family: "Open Sans", Helvetica, Arial;
+    font-weight: 300;
+    text-align: center;
+    height: 100px;
+    min-height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.region.featured {
+    margin: 0; 
+    padding: 0; 
+}
+.apropos {
+    top:180px;
+    bottom: -180px;
+    margin: 0; 
+    padding: 0;  
+}
+.header-clients,.header-services, .header-contact, .header-references, .header-devis{
+    justify-content: center; 
+    background-attachment: fixed;
+    align-items: center; 
+    display: flex;
+    color: white;
+    font-family: "Open Sans", Helvetica, Arial;
+    font-weight: 300;
+    text-align: center;
+    height: 100px;
+    min-height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.header-clients{
+    background: url(../images/client.jpg) no-repeat ;
+    background-size: cover; 
+}
+.header-contact{
+    background: url(../images/contact.jpg) no-repeat ;
+    background-size: cover; 
+}
+
+.header-references{
+    background: url(../images/references.jpg) no-repeat ;
+    background-size: cover; 
+}
+
+.header-devis{
+    background: url(../images/devis.jpg) no-repeat ;
+    background-size: cover; 
+}
+.header-services{
+    background: url(../images/service.jpg) no-repeat ;
+    background-size: cover; 
+}
+.header-clients h1, 
+.header-contact h1 ,
+.header-references h1 ,
+.header-devis h1,
+.header-services h1,
+.apropos h1{
+    position: relative;
+    top: 50px; 
+    font-size: 36px;
+}

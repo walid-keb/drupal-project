@@ -1,0 +1,12 @@
+# Drupal-specific ignored directories
+/core/
+/vendor/
+/sites/default/files/
+/sites/default/settings.php
+
+# Ignore temporary files and system files
+*.log
+*.sqlite
+composer.lock
+.DS_Store
+Thumbs.db
